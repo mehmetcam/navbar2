@@ -1,0 +1,91 @@
+body{
+    font-family: 'Rowdies', cursive;
+    background-color: black;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: blanchedalmond;
+    font-size: 1.5em;   
+}
+
+a:hover{
+    color: gold;
+    font-size: 2em;
+}
+
+.navbar {
+    font-family: 'Rowdies', cursive;
+    min-height: 6rem;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row ;
+    color: blanchedalmond;
+    background-color: black;
+    position: fixed;
+}
+
+/* |||||||||||||||||||||||| */
+
+.mene-deroulant, .menu-deroulant ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    color: blanchedalmond;
+
+}
+.menu-deroulant {
+    background-color: black;
+}
+.menu-deroulant li {
+    /* on place les liens du menu horizontalement */
+        display: inline-block;
+        
+}
+.menu-deroulant ul li {
+    /* on enlève ce comportement pour les liens du sous menu */
+        display: inherit;     
+}
+.menu-deroulant ul {
+    position: absolute;
+    display: none;
+    color: blanchedalmond;
+}
+.menu-deroulant li:hover ul {
+    display: block;
+    background-color: black;    
+}
+
+/* |||||||||||||||||||||||| */
+
+.details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sous{
+    
+}
+
+h1:hover {
+    color: gold;
+    font-size: 3em;
+}
+
+.texte{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    
+    align-items: center;
+}
+
+p{
+    max-width: 500px;
+    margin: 10px;
+}
